@@ -7,9 +7,6 @@ if (todos) {
     todos.forEach(todo => addTodo(todo))
 }
 
-
-
-
 form.addEventListener('submit', (e) => {
     e.preventDefault()
 
